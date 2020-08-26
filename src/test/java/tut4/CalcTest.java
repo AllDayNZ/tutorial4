@@ -10,4 +10,12 @@ public class CalcTest {
         int y = 1;
         assertEquals(2, Calc.add(x, y));
       }
+
+      @Test
+      public void testSubtract(){
+        int x = 1;
+        int y = 1;
+        assertEquals(0, Calc.subtract(x,y));
+      }
+
     }
